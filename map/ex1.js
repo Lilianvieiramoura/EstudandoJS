@@ -13,5 +13,5 @@ function retornaProduto(produto) { // a função retorna um objeto com apenas o 
   return produtoExibicao;
 }
 
-const produtosExibicao = produtosCadastrados.map(retornaProduto); //reeeeeetornaProduto = executando a função para cada elementos do array produtosCadastrados
+const produtosExibicao = produtosCadastrados.map(retornaProduto); //retornaProduto = executando a função para cada elementos do array produtosCadastrados
 console.log(produtosExibicao); //criamos um novo array porém que só possui o nome e o valor de cada produto.
